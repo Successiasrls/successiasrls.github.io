@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: url('/src/img/background.svg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.content {
+  text-align: center;
+  padding: 50px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  p {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+  }
+}
