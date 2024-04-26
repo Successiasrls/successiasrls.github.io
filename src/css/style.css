@@ -1,0 +1,94 @@
+/* Font */
+.font{
+  font-family: "Roboto Slab" ;
+  font-weight: bold;
+  color: black;
+}
+
+.font-brand{
+font-family: "Roboto Slab" ;
+font-weight: bold;
+color: white;
+}
+
+.chi-siamo{
+  font-family: "Roboto Slab" ;
+  color: white;
+}
+
+.nav{
+  font-family: "Roboto Slab" ;
+  font-weight: bold;
+}
+
+
+/* Home Page Center h1,p and button */
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Img */
+.img-fluid{
+  pointer-events: none;
+  width: 80%;
+}
+
+/* Card For Real Estate, Moda, Marketing */
+.card-2 {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.card-img-top{
+  pointer-events: none;
+}
+
+/*Img Background Section */
+.background-section {
+  background-image: url('/src/img/background.jpeg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white; 
+}
+
+#chi-siamo {
+  background-image: url('/src/img/chi-siamo.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white; /* Testo bianco per contrastare con lo sfondo */
+}
+
+#brand {
+  background-image: url('/src/img/brand.jpg');
+  background-size: cover;
+  background-position: center;
+  color: black; /* Testo nero per contrastare con lo sfondo */
+}
+
+#contatti {
+  background-image: url('immagine-contatti.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0); /* Testo bianco per contrastare con lo sfondo */
+}
+
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
